@@ -3,7 +3,7 @@
 Calculate the time when copy a very big text file like Big-Alice-in-Wonderland.txt
 by 6 way and calculate it elapsed time.
 
-Result:
+##Result:
 
           Task			    |     Elapsed Time	 
 |---------------------------|--------------------:
@@ -13,6 +13,7 @@ Copy a file 4KB-per-array   |     0.006637 sec
 Copy a file 64KB-per-array  |     0.002532 sec
 Copy a file line-by-line    |     0.150848 sec
 Copy a file by-char-array   |     0.044405 sec
+
 
 In the first task we can see that it is a longest task because this task copy a text by 1 byte per time
 then the program must run equal to number of byte in the file so it take a longest time. 
