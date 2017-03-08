@@ -4,8 +4,9 @@ Calculate the time when copy a very big text file like Big-Alice-in-Wonderland.t
 by 6 way and calculate it elapsed time.
 
 Result:
-         Task			    |     Elapsed Time	
-----------------------------|--------------------
+
+          Task			    |     Elapsed Time	 
+|---------------------------|--------------------:
 Copy a file byte-by-byte	|     4.151571 sec
 Copy a file 1KB-per-array   |     0.013256 sec
 Copy a file 4KB-per-array   |     0.006637 sec
